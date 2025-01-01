@@ -33,7 +33,7 @@ function Nav(props) {
                 alt="Netflix logo"
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/220px-Netflix_2015_logo.svg.png"
                 className="nav__logo"
-                onClick={() => window.location.href("https://changDDAO.github.io/netflix-react-page")}
+                onClick={() => window.location.href="https://changDDAO.github.io/netflix-react-page"}
             />
             <input value={searchValue}
                    onChange={handleChange}
